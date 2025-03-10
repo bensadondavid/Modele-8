@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: 'Hatton';
-    src: url('./assets/fonts/PP\ Hatton\ Medium\ 500.otf') format('opentype');
+    src: url('./assets/fonts/PP-Hatton-Medium-500.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -68,7 +68,6 @@
     align-items: center;
     position: relative;
     font-family: "Hatton";
-    font-weight: lighter;
 }
 
 .bsd{
@@ -111,7 +110,6 @@
 
 .time{
     text-align: center;
-    font-size: x-large;
     background-color: transparent;
     border-radius: 28px;
     height: 65px;
