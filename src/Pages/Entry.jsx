@@ -10,17 +10,18 @@ function Entry(){
     return(
 
         <div className="entry">
-            <p className="bsd">בס"ד</p>
-            <div className="fleurs-entry">
-                <img src="fleur-m5-droite.png" className='fleur-entry-droite' />
-                <div className="logo-date-entry">
-                    <img src="logo-m5.png" className='logo-m5-entry' />
-                    <p className='entry-date'>03 . 06 . 2024</p>
+            <div className="entry-container">
+                <p className="bsd">בס"ד</p>
+                <div className="logo-date">
+                    <img src="logo-m8.png" className='logo-entry' />
+                    <p className='entry-date'>14. 02. 2026</p>
                 </div>
-                <img src="fleur-m5-gauche.png" className='fleur-entry-gauche' />
+                <CountDown />
+                <div className="entry-link">
+                    <Link to='/home' className='invit-link'>Voir l'invitation</Link>
+                    <img src="boucle-m8.png" className='entry-boucle' />
+                </div>
             </div>
-            <CountDown />
-            <Link to='/home' className='invit-link'>Voir l'invitation</Link>
         </div>
 
     )
