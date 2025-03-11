@@ -48,7 +48,7 @@
 .entry{
     height: 100%;
     width: 100%;
-    background-image: url('/fond-m8-droit.png');
+    background-image: url('/fond-m8-entry.png');
     background-repeat: repeat-y;
     background-position: center;
     background-size: cover;
@@ -139,16 +139,15 @@
     font-weight: bold;
 }
 
-.entry-boucle{
+.boucle{
     height: 20px;
     width: 170px;
 }
 
 
-
 /* Home */
 
-.home{
+.home {
     height: fit-content;
     width: 100%;
     display: flex;
@@ -156,28 +155,10 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    background-image: url('/fond-m5.png');
-    background-repeat: repeat-y;
     overflow: hidden;
-    padding-bottom: 50px;
+    background-image: url("/fond-m8-droit.png");
+    background-size: 100vw ;
 }
-
-.fleur-bas{
-    height: 100px;
-    width: 180px;
-    transform: rotate(-50deg);
-    position: absolute;
-    bottom: 35px;
-    right: 0;
-}
-
-.noms-bas{
-    height: fit-content;
-    position: absolute;
-    bottom: 2px;
-    font-family: 'Farmhand', serif;
-}
-
 /* Musique */
 
 .musique button{
@@ -194,87 +175,57 @@
 
 /* Card */
 
-.card{
+.card-1, .card-2{
     height: fit-content;
-    border: none;
+    width: 94%;
+    border: double 7px #6D6349;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
+    margin: 30px auto;
+    padding: 30px 0;
 }
 
-.fleurs-title{
-    height: fit-content;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
+.card-2{
+    background-image: url('/fond-m8-cote.png');
+    background-size: 100vw;
 }
 
-.fleur-title-gauche, .fleur-title-droite{
-    height: 100px;
-    width: 200px;
-}
-
-.fleur-title-droite{
-    align-self: flex-end;
-    transform: translateY(30px);
-}
-
-.fleur-title-gauche{
-    align-self: start;
-    transform: translateY(-30px);
-}
-
-.fleurs-title .title{
-    align-self: center;
-    font-family: "Italianno", serif;
-    letter-spacing: 2px;
-}
-
-.noms{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 20px;
-}
-
-.nom-1, .nom-2, .and{
-    width: 100%;
-    height: fit-content;
-    font-family: 'Farmhand', serif;
-    font-size: 70px;
+.title{
+    font-family: "Gilda Display", serif;
     text-align: center;
-    color: #292B2D;
-    font-weight: 100;
+    font-size: 35px;
+    color: #6D6349;
+    margin-top: 20px;
+    height: fit-content;
+}
+
+.noms, .and{
+    font-family: "Gilda Display", serif;
+    font-size: 65px;
+    color:#6D6349;
+    margin-top: 40px;
 }
 
 .and{
-    font-family: "Alice", serif;
-    font-size: 40px;
+    font-size: 30px;
 }
-
 
 .text{
     margin: 40px auto auto auto;
-    font-family: "Alice", serif;
-    color: #292B2D;
+    font-family: 'Hatton';
+    color: #6D6349;
     height: fit-content;
     width: 80%;
     text-align: center;
 }
 
-.oui{
-    margin: 10px auto auto auto;
-    font-family: "Alice", serif;
-    font-size: 30px;
-    color: #292B2D;
-    height: fit-content;
-}
-
 .date{
     height: fit-content;
     margin: 40px auto auto auto;
-    font-family: "Alice", serif;
-    color: #292B2D;
+    font-family: 'Hatton';
+    color: #6D6349;
     font-size: 20px;
     text-align: center;
 }
@@ -282,8 +233,8 @@
 .endroit{
     height: fit-content;
     margin: 40px auto auto auto;
-    font-family: "Alice", serif;
-    color: #292B2D;
+    font-family: 'Hatton';
+    color: #6D6349;
     text-align: center;
     width: 80%;
 }
@@ -293,8 +244,8 @@
     width: 60%;
     text-align: center;
     margin: 40px auto auto auto;
-    font-family: "Alice", serif;
-    color: #292B2D;
+    font-family: 'Hatton';
+    color: #6D6349;
 }
 
 .waze{
@@ -308,8 +259,8 @@
 }
 
 .waze .waze-link{
-    color: #292B2D;
-    font-family: "Alice", serif;
+    font-family: 'Hatton';
+    color: #6D6349;
     font-style: italic;
 }
 
@@ -322,8 +273,8 @@
 }
 
 .save-the-date .save-the-date-link{
-    color: #292B2D;
-    font-family: "Alice", serif;
+    font-family: 'Hatton';
+    color: #6D6349;
     font-style: italic;
 }
 
@@ -341,41 +292,37 @@
     flex-direction: row;
     justify-content: space-around;
     margin: 15px auto 10px auto;
+    font-family: 'Hatton';
+    color: #6D6349;
 }
 
-.parents-fille{
-    font-family: "Alice", serif;
-    font-size: small;
-}
-
-.parents-garcon{
-    font-family: "Alice", serif;
+.parents-garcon, .parents-fille{
     font-size: small;
 }
 
 
 .houppa-text1{
     width: 80%;
-    font-family: "Alice", serif;
     text-align: center;
-    color: #271A11;
+    font-family: 'Hatton';
+    color: #6D6349;
     margin: 40px auto;
 }
 
 .houppa-text2{
     width: 80%;
-    font-family: "Alice", serif;
+    font-family: 'Hatton';
+    color: #6D6349;
     text-align: center;
-    color: #271A11;
     margin: 40px auto 0 auto;
 }
 
 
 .pensee{
     margin: 40px auto auto auto;
-    font-family: "Alice", serif;
     text-align: center;
-    color: #271A11;
+    font-family: 'Hatton';
+    color: #6D6349;
     font-style: italic;
     text-align: center;
     width: 80%;

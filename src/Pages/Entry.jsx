@@ -19,7 +19,7 @@ function Entry(){
                 <CountDown />
                 <div className="entry-link">
                     <Link to='/home' className='invit-link'>Voir l'invitation</Link>
-                    <img src="boucle-m8.png" className='entry-boucle' />
+                    <img src="boucle-m8.png" className='boucle' />
                 </div>
             </div>
         </div>
