@@ -28,9 +28,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #635a4224;
 }
 
-.logo-m5-too-big{
+.logo-m8-too-big{
     height: 200px;
     width: 200px;
 }
@@ -341,7 +342,7 @@
 form{
     height: fit-content;
     width: 100%;
-    font-family: "Alice", serif;
+    font-family: 'Hatton';
     color: #6D6349;
     display: flex;
     flex-direction: column;
@@ -411,7 +412,7 @@ textarea{
     border: none;
     background-color: rgba(109, 99, 73, 0.5);
     color: #635a42;
-    font-family: "Alice", serif;
+    font-family: 'Hatton';
     letter-spacing: 2px;
 }
 
