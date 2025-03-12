@@ -2,7 +2,6 @@ import { useContext } from 'react';
 import { Context} from '../Context';
 import Musique from '../Components/Musique'
 import Mairie from './Mairie'
-import Henne from './Henne'
 import Houppa from './Houppa'
 import Chabat from './Chabat';
 import Response from './Response';

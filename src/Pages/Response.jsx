@@ -8,14 +8,11 @@ function Response(){
 
     return(
             <>
-                <div className="response-title">
-                    <div className="fleurs-title">
-                        <img src="fleur-m5-droite.png" className='fleur-title-droite' />
-                        <h1 className='title'>Réponse</h1>
-                        <img src="fleur-m5-gauche.png" className='fleur-title-gauche' />
-                    </div>
-                </div>
+            <div className="card-2">
+                    <h1 className='title'>Réponse</h1>
+                    <img src="boucle-m8.png" className='boucle' />
                 <Form />
+            </div>    
             </>
     )
 }
